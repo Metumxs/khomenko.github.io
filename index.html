@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Тортики & Тістечка</title>
+  </head>
+
+  <body>
+    <input type="radio" name="filter" id="cake" />
+    <input type="radio" name="filter" id="bisquit" />
+    <input type="radio" name="filter" id="pie" />
+    <input type="radio" name="filter" id="reset" checked />
+    <div class="main">
+      <h1>Тортики <span class="symbol">&</span> Тістечка</h1>
+
+      <div class="desserts">
+        <div class="cake" id="cake">
+          <img
+            src="https://static.1000.menu/img/content/20687/recept-medovika_1496147737_1_max.jpg"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Торт "Медовик"</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 478 ккал</p>
+        </div>
+        <div class="cake" id="cake">
+          <img
+            src="https://i.ytimg.com/vi/UZ9KbH_GBJc/maxresdefault.jpg"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Японський чізкейк</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 510 ккал</p>
+        </div>
+        <div class="cake" id="bisquit">
+          <img
+            src="https://www.tasteatlas.com/images/dishes/801ad8201e5a4fd69516b425fa64c26d.jpg?mw=1300"
+            alt="bisquit"
+          />
+          <p class="name">
+            <b>Шоколадний бісквіт</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 320 кКал</p>
+        </div>
+        <div class="cake" id="cake">
+          <img
+            src="https://static.1000.menu/img/content-v2/2c/ac/17693/napoleon-na-skovorode_1612618958_19_max.jpg"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Торт "Наполеон"</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 275 ккал</p>
+        </div>
+        <div class="cake" id="cake">
+          <img
+            src="https://cupcake.com.ua/wp-content/uploads/2020/07/lavanda5.jpg"
+            alt="cake"
+          />
+          <p class="name">
+            <b>Чізкейк з лавандою</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 640 кКал</p>
+        </div>
+        <div class="bisquit" id="bisquit">
+          <img
+            src="https://milkalliance.com.ua/blog/images/eclairskfkjfhjryhbn3.jpg"
+            alt="bisquit"
+          />
+          <p class="name">
+            <b>Еклер з малиною</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 240 кКал</p>
+        </div>
+        <div class="bisquit" id="bisquit">
+          <img
+            src="https://shuba.life/static/content/thumbs/1200x630/7/80/b57ve3---c2000x1050x0sx214s-up--3fdbe9c66d842fac8a389104d687b807.jpg"
+            alt="bisquit"
+          />
+          <p class="name">
+            <b>Макарон</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 390 кКал</p>
+        </div>
+        <div class="pie" id="pie">
+          <img
+            src="https://www.tasteatlas.com/images/dishes/9431647425da41eca54ec0e194dc9c2d.jpg?mw=1300"
+            alt="pie"
+          />
+          <p class="name">
+            <b>Яблучний пиріг</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 520 кКал</p>
+        </div>
+        <div class="pie" id="pie">
+          <img
+            src="https://shuba.life/static/content/thumbs/1905x884/4/fd/gbpdli---c1905x884x50px50p-up--e1b7e2f30a59b0fd90df0956b2886fd4.jpg"
+            alt="pie"
+          />
+          <p class="name">
+            <b>Пиріг з малиною</b>
+          </p>
+          <hr />
+          <p class="calories">Калорій у порції 100g: 580 кКал</p>
+        </div>
+      </div>
+      <div class="contacts">
+        <p>Контакти:</p>
+        <p class="link">tortic@smakota.ua</p>
+        <p class="copy">© 2023 Smakota</p>
+      </div>
+      <div class="filters">
+        <nav>
+          <h3>Калорій</h3>
+          <input type="range" min="0" max="100" style="width: 300px" />
+          <p><b>Від 0 до 650 кКал</b></p>
+        </nav>
+        <div class="filter-button"><label for="cake">Торти</label></div>
+        <div class="filter-button"><label for="bisquit">Тістечка</label></div>
+        <div class="filter-button"><label for="pie">Пироги</label></div>
+        <div class="filter-button"><label for="reset">Скинути фільтр</label></div>
+      </div>
+    </div>
+  </body>
+</html>
