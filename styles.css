@@ -205,8 +205,8 @@
         padding: 15px;
         width: 670px;
         height: 2175px;
-        transform: scale(2); /* Збільшення масштабу */
-        transform-origin: top left; /* Закріплення точки збільшення */
+        transform: scale(3.5);
+        transform-origin: top left;
     }
 
 
